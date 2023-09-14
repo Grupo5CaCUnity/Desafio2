@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 171125922}
   - component: {fileID: 171125921}
   m_Layer: 0
-  m_Name: CameraCuarto
+  m_Name: Camara3
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1541,13 +1541,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171125920}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3683361, y: 0.23926252, z: -0.09869539, w: 0.8929397}
+  m_LocalRotation: {x: 0.35401297, y: 0.24080983, z: -0.09485751, w: 0.89871436}
   m_LocalPosition: {x: -3.265459, y: 26.921879, z: -27.075918}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45, y: 30, z: 0}
+  m_LocalEulerAnglesHint: {x: 43, y: 30, z: 0}
 --- !u!1 &180509982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1800,7 @@ GameObject:
   - component: {fileID: 219170769}
   - component: {fileID: 219170768}
   m_Layer: 0
-  m_Name: "CameraBa\xF1o"
+  m_Name: Camara2
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1848,7 +1848,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: 1
   m_CullingMask:
@@ -1873,13 +1873,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219170767}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4717101, y: -0.5262752, z: 0.46748072, w: -0.53102344}
-  m_LocalPosition: {x: 9.76128, y: 12.143693, z: -5.7147837}
+  m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 10, y: 10.63, z: -2.07}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
 --- !u!1 &222066956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,7 +2066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &272888946
 Transform:
   m_ObjectHideFlags: 0
@@ -4301,7 +4301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &624563049
 Transform:
   m_ObjectHideFlags: 0
@@ -6311,7 +6311,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camara1
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6486,7 +6486,7 @@ GameObject:
   - component: {fileID: 986909899}
   - component: {fileID: 986909898}
   m_Layer: 0
-  m_Name: CameraSala
+  m_Name: Camara4
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6500,8 +6500,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986909896}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0014999815, y: -0.0015049457, z: -0.0000022574206, w: 0.99999774}
-  m_LocalPosition: {x: 11.005271, y: 1.772788, z: -8.334764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 3, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
